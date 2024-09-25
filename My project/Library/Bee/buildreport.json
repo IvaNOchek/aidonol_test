@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.72726798551316E+15,"dur": 4094373, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.7272679855489E+15,"dur": 15615, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.72726798565411E+15,"dur": 3898133, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "09/25/2024 15:39:49",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.43f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\ivanL\\OneDrive\\\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b\\Unity\\aidonol_test\\My project\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-ivanL -hubSessionId 245d66bf-4aee-4e77-84a4-74b36223011b",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.43f1\\Editor\\Unity.exe -projectpath C:\\Users\\ivanL\\OneDrive\\\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b\\Unity\\aidonol_test\\My project -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-ivanL -hubSessionId 245d66bf-4aee-4e77-84a4-74b36223011b",
+"meta_user_name": "ivanL",
+"meta_os_version": "Microsoft Windows NT 10.0.22631.0",
+"meta_cpu_count": "12"
+}
